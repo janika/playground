@@ -4,7 +4,7 @@ Personal Ubuntu box for trying things out. The vagrant machine is going to use y
 
 The playground includes 
   * nginx
-  * newest node and npm
+  * newest node and npm from source
 
 ### Prerequisites
 

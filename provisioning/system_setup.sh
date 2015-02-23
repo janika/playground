@@ -9,6 +9,9 @@ dpkg-reconfigure locales
 echo "Get updates"
 apt-get update -y > /dev/null
 
+echo "Build essentials"
+apt-get install build-essential g++ -y > /dev/null
+
 echo "Installing Git"
 apt-get install git -y > /dev/null
 
