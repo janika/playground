@@ -15,6 +15,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, path: "provisioning/system_setup.sh"
   config.vm.provision :shell, path: "provisioning/node_setup.sh", privileged: false
   config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "forwarded_port", guest: 9000, host: 9000
   config.ssh.forward_agent = true
 
 end
