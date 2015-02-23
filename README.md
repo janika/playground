@@ -25,6 +25,11 @@ Getting the machine up:
 vagrant up
 ```
 
+Provisioning the machine:
+```sh
+vagrant provision
+```
+
 You can ssh to the machine
 ```sh
 vagrant ssh
