@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#Javascript
+
+#Node and npm
 nodeVersion=v0.12.0
 nodeVersionFolder=node-$nodeVersion
 
