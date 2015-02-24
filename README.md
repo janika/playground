@@ -8,7 +8,7 @@ The playground includes
 
 ### Prerequisites
 
-* make sure **Intel Virtualization** is enabled in your BIOS
+* make sure **Intel Virtualization** is enabled in your BIOS (https://github.com/Varying-Vagrant-Vagrants/VVV/issues/375)
 * download and install the latest VirtualBox (https://www.virtualbox.org/wiki/Downloads)
 * download and install the latest Vagrant (https://www.vagrantup.com/downloads.html)
 * To speed things up Vagrant is going to use **nfs** filesystem so on Linux you need to do:
