@@ -4,7 +4,7 @@ Personal Ubuntu box for trying things out. The vagrant machine is going to use y
 
 The playground includes 
   * nginx
-  * v0.12.0 node from source
+  * v0.12.0 node 
   * mongodb
 
 ### Prerequisites
