@@ -18,7 +18,6 @@ Vagrant.configure("2") do |config|
     v.vm.provision :shell, path: "provisioning/node_setup.sh", privileged: false
     v.vm.provision :shell, path: "provisioning/mongo_setup.sh", privileged: false
 
-    v.vm.network "forwarded_port", guest: 80, host: 8080
     v.vm.network "forwarded_port", guest: 9000, host: 9000
   end
 end
